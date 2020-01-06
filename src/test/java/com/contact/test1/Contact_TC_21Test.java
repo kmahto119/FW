@@ -81,16 +81,16 @@ public class Contact_TC_21Test extends BaseClass{
 				
 				
 				String actOpt=cp.getverifyAssignUserTypeEdt().getText();	
-				//SoftAssert s1=new SoftAssert();
-				//boolean stat1=actOpt.contains(expOpt);
-				//Assert.assertEquals(stat1, true);
+	
 				Assert.assertEquals(actOpt, expOpt);
 				
 				Reporter.log(actOpt+"is avilable", true);
-				//s1.assertAll();
+	
 				wbcu.waitForPageToLoad();
 				System.out.println("success123");
-				
+				System.out.println("==========first test case done===========");
+				WebdriverCommonUtility wbcu1=new WebdriverCommonUtility();
+				wbcu1.waitForPageToLoad();
 				
 	}
 	
