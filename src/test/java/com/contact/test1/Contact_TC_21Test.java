@@ -27,7 +27,7 @@ public class Contact_TC_21Test extends BaseClass{
 	public void createcontactwithAdministratorTest() throws Throwable, Throwable
 	{
 		
-		
+		System.out.println("==========================click done===============================");
 		
 		
 		/*create an object of contact class */
