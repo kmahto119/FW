@@ -28,6 +28,8 @@ public class Contact_TC_21Test extends BaseClass{
 	{
 		System.out.println("==============================");
 		
+		
+		
 		/*create an object of contact class */
 		WebdriverCommonUtility wbcu=new WebdriverCommonUtility();
 		Home hp=PageFactory.initElements(driver, Home.class);
@@ -99,6 +101,9 @@ public class Contact_TC_21Test extends BaseClass{
 				System.out.println("==========first test case done===========");
 				WebdriverCommonUtility wbcu1=new WebdriverCommonUtility();
 				wbcu1.waitForPageToLoad();
+				System.out.println("success123gg");
+				System.out.println("hello");
+			
 				
 	}
 	
