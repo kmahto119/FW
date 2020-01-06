@@ -26,7 +26,7 @@ public class Contact_TC_21Test extends BaseClass{
 	
 	public void createcontactwithAdministratorTest() throws Throwable, Throwable
 	{
-		
+		System.out.println("==============================");
 		
 		/*create an object of contact class */
 		WebdriverCommonUtility wbcu=new WebdriverCommonUtility();
