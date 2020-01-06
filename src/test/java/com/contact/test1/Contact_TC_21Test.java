@@ -38,6 +38,9 @@ public class Contact_TC_21Test extends BaseClass{
 				hp.getcontactLnk().click();
 				
 				
+				wbcu.waitForPageToLoad();
+				System.out.println("==========================click done===============================");
+				
 				
 				wbcu.waitForPageToLoad();
 				System.out.println("==========================click done===============================");
