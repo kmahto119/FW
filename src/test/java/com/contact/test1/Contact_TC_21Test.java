@@ -26,10 +26,6 @@ public class Contact_TC_21Test extends BaseClass{
 	
 	public void createcontactwithAdministratorTest() throws Throwable, Throwable
 	{
-		
-		System.out.println("==========================click done===============================");
-		
-		
 		/*create an object of contact class */
 		WebdriverCommonUtility wbcu=new WebdriverCommonUtility();
 		Home hp=PageFactory.initElements(driver, Home.class);
@@ -38,18 +34,10 @@ public class Contact_TC_21Test extends BaseClass{
 		/*step 3	click on "+" image Button to create new Contact*/
 				
 				hp.getcontactLnk().click();
-				
-				System.out.println("==============================");
-				
 				wbcu.waitForPageToLoad();
-				System.out.println("==========================click done===============================");
-				
-				
 				wbcu.waitForPageToLoad();
-				System.out.println("==========================click done===============================");
 				hp.getaddContactBtnImg().click();
 				wbcu.waitForPageToLoad4();
-
 				String expOptCreateContact="Creating New Contact";
 				String actOptCreateContact=cp.getCreateContactPageDisp().getText();
 				boolean stat=actOptCreateContact.contains(expOptCreateContact);
