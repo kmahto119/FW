@@ -102,6 +102,8 @@ public class Contact_TC_21Test extends BaseClass{
 				WebdriverCommonUtility wbcu1=new WebdriverCommonUtility();
 				wbcu1.waitForPageToLoad();
 				System.out.println("success123gg");
+				System.out.println("hello");
+			
 				
 	}
 	
