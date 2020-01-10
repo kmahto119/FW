@@ -21,7 +21,7 @@ public class Contact_TC_23Test extends BaseClass {
 	@Test
 	public void OpenContactAndDeleteThatContactAndCancelTest() throws Throwable, Throwable
 	{
-		/*step 3: Navigate to "Contacts" .*/
+		/*step 3: Navigate to "Contacts"123 .*/
 		Home hp=PageFactory.initElements(driver, Home.class);
 		CreateContact cp=PageFactory.initElements(driver, CreateContact.class);
 		WebdriverCommonUtility wbcu=new WebdriverCommonUtility();
