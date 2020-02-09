@@ -50,7 +50,7 @@ public class Contact_TC_22Test extends BaseClass {
 		
 		hp.getaddContactBtnImg().click();
 		wbcu.waitForPageToLoad();
-		
+		System.out.println("00 feb");
 
 		hp.getcontactLnk().click();
 		int count=0;
