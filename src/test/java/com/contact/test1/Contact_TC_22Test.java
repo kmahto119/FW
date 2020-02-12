@@ -19,7 +19,7 @@ import com.vtiger.objectRepoLib.Home;
 
 @Listeners(com.vtiger.genericLib.ListImpClass.class)
 public class Contact_TC_22Test extends BaseClass {
-	@Test
+	@Test(groups = {"smoke"})
 	public void OpenContactAndDeleteThatContact() throws Throwable, Throwable
 	
 	{

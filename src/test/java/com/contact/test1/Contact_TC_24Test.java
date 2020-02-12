@@ -20,7 +20,7 @@ import com.vtiger.objectRepoLib.Home;
 
 @Listeners(com.vtiger.genericLib.ListImpClass.class)
 public class Contact_TC_24Test extends BaseClass {
-	@Test
+	@Test(groups = "regression")
 	public void SelectContactAndDeleteOneContactWithHeaderDelete() throws Throwable, Throwable{
 		WebdriverCommonUtility wbcu=new WebdriverCommonUtility();
 		Home hp=PageFactory.initElements(driver, Home.class);

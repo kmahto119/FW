@@ -30,15 +30,7 @@ public class FileLib {
 		String value=pObj.getProperty(key);
 		return value;
 	}
-	/*public String getPropertyValue(String key) throws Throwable
-	{
-		FileInputStream fis=new FileInputStream("./src/test/resources/commondata.properties");
-		Properties pObj=new Properties();
-		pObj.load(fis);
-		String value=pObj.getProperty(key);
-		
-		return value;
-	}*/
+	
 	
 	/**
 	 * 

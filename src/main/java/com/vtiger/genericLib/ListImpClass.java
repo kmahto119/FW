@@ -42,7 +42,7 @@ public class ListImpClass implements ITestListener {
 		catch (Exception e) {
 			// TODO: handle exception
 			e.printStackTrace();
-			System.out.println("wx eception");
+			System.out.println("wx exception");
 		}
 		
 	}
