@@ -18,7 +18,7 @@ import com.vtiger.objectRepoLib.Home;
 
 @Listeners(com.vtiger.genericLib.ListImpClass.class)
 public class Contact_TC_23Test extends BaseClass {
-	@Test
+	@Test(groups = {"regression"})
 	public void OpenContactAndDeleteThatContactAndCancelTest() throws Throwable, Throwable
 	{
 		/*step 3: Navigate to "Contacts"123 .*/

@@ -19,7 +19,7 @@ import com.vtiger.objectRepoLib.Home;
 
 @Listeners(com.vtiger.genericLib.ListImpClass.class)
 public class Contact_TC_22Test extends BaseClass {
-	@Test
+	@Test(groups = {"smoke"})
 	public void OpenContactAndDeleteThatContact() throws Throwable, Throwable
 	
 	{
@@ -50,7 +50,7 @@ public class Contact_TC_22Test extends BaseClass {
 		
 		hp.getaddContactBtnImg().click();
 		wbcu.waitForPageToLoad();
-		
+		System.out.println("00 feb");
 
 		hp.getcontactLnk().click();
 		int count=0;

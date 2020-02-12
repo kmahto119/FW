@@ -31,7 +31,7 @@ public class ListImpClass implements ITestListener {
 		String currentDate=date.toString().replace(":", "_").replace(" ", "_");
 		
 		String failedTestName=result.getMethod().getMethodName();
-		System.out.println("--------failed----"+failedTestName);
+		
 		EventFiringWebDriver eDriver=new EventFiringWebDriver(BaseClass.driver);
 		File srcFile=eDriver.getScreenshotAs(OutputType.FILE);
 		File destFile=new File("./screenshot/"+failedTestName+"_"+currentDate+".png");
@@ -41,7 +41,8 @@ public class ListImpClass implements ITestListener {
 		}
 		catch (Exception e) {
 			// TODO: handle exception
-			System.out.println("wxeception");
+			e.printStackTrace();
+			System.out.println("wx exception");
 		}
 		
 	}
