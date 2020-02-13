@@ -11,31 +11,103 @@
       <![CDATA[login successfully]]>
     </line>
     <line>
-      <![CDATA[Creating New Contact is avilable]]>
+      <![CDATA[Contact Page displayed]]>
     </line>
     <line>
-      <![CDATA[contact created]]>
+      <![CDATA[Contact Information Page displayed]]>
     </line>
     <line>
-      <![CDATA[  Administrator  is avilable]]>
+      <![CDATA[Alert Window should pop-up with below details: Are you sure you want to delete this record?]]>
+    </line>
+    <line>
+      <![CDATA[8.Contact information Page Should be displayed]]>
+    </line>
+    <line>
+      <![CDATA[Contact Information Page displayed]]>
+    </line>
+    <line>
+      <![CDATA[Alert Window should pop-up with below details: Are you sure you want to delete this record?]]>
+    </line>
+    <line>
+      <![CDATA[8.Contact information Page Should be displayed]]>
+    </line>
+    <line>
+      <![CDATA[Contact Information Page displayed]]>
+    </line>
+    <line>
+      <![CDATA[Alert Window should pop-up with below details: Are you sure you want to delete this record?]]>
+    </line>
+    <line>
+      <![CDATA[8.Contact information Page Should be displayed]]>
+    </line>
+    <line>
+      <![CDATA[Contact Information Page displayed]]>
+    </line>
+    <line>
+      <![CDATA[Alert Window should pop-up with below details: Are you sure you want to delete this record?]]>
+    </line>
+    <line>
+      <![CDATA[8.Contact information Page Should be displayed]]>
+    </line>
+    <line>
+      <![CDATA[Contact Information Page displayed]]>
+    </line>
+    <line>
+      <![CDATA[Alert Window should pop-up with below details: Are you sure you want to delete this record?]]>
+    </line>
+    <line>
+      <![CDATA[8.Contact information Page Should be displayed]]>
+    </line>
+    <line>
+      <![CDATA[Contact Information Page displayed]]>
+    </line>
+    <line>
+      <![CDATA[Alert Window should pop-up with below details: Are you sure you want to delete this record?]]>
+    </line>
+    <line>
+      <![CDATA[8.Contact information Page Should be displayed]]>
+    </line>
+    <line>
+      <![CDATA[Contact Information Page displayed]]>
+    </line>
+    <line>
+      <![CDATA[Alert Window should pop-up with below details: Are you sure you want to delete this record?]]>
+    </line>
+    <line>
+      <![CDATA[8.Contact information Page Should be displayed]]>
+    </line>
+    <line>
+      <![CDATA[Contact Information Page displayed]]>
+    </line>
+    <line>
+      <![CDATA[Alert Window should pop-up with below details: Are you sure you want to delete this record?]]>
+    </line>
+    <line>
+      <![CDATA[8.Contact information Page Should be displayed]]>
+    </line>
+    <line>
+      <![CDATA[Contacts should not be present]]>
     </line>
     <line>
       <![CDATA[logout successfully]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="353121" started-at="2020-01-10T07:41:03 IST" finished-at="2020-01-10T07:46:56 IST">
+  <suite name="Suite" duration-ms="303308" started-at="2020-02-13T08:54:39 IST" finished-at="2020-02-13T08:59:42 IST">
     <groups>
+      <group name="smoke">
+        <method signature="Contact_TC_22Test.OpenContactAndDeleteThatContact()[pri:0, instance:com.contact.test1.Contact_TC_22Test@7494e528]" name="OpenContactAndDeleteThatContact" class="com.contact.test1.Contact_TC_22Test"/>
+      </group> <!-- smoke -->
     </groups>
-    <test name="Default test" duration-ms="353121" started-at="2020-01-10T07:41:03 IST" finished-at="2020-01-10T07:46:56 IST">
-      <class name="com.contact.test1.Contact_TC_21Test">
-        <test-method status="PASS" signature="configBC()[pri:0, instance:com.contact.test1.Contact_TC_21Test@7494e528]" name="configBC" is-config="true" duration-ms="53461" started-at="2020-01-10T07:41:03 IST" finished-at="2020-01-10T07:41:56 IST">
+    <test name="Test" duration-ms="303308" started-at="2020-02-13T08:54:39 IST" finished-at="2020-02-13T08:59:42 IST">
+      <class name="com.contact.test1.Contact_TC_22Test">
+        <test-method status="PASS" signature="configBC()[pri:0, instance:com.contact.test1.Contact_TC_22Test@7494e528]" name="configBC" is-config="true" duration-ms="16909" started-at="2020-02-13T08:54:39 IST" finished-at="2020-02-13T08:54:56 IST">
           <reporter-output>
             <line>
               <![CDATA[=========lounch the browser=======]]>
             </line>
           </reporter-output>
         </test-method> <!-- configBC -->
-        <test-method status="PASS" signature="configBM()[pri:0, instance:com.contact.test1.Contact_TC_21Test@7494e528]" name="configBM" is-config="true" duration-ms="140938" started-at="2020-01-10T07:41:56 IST" finished-at="2020-01-10T07:44:17 IST">
+        <test-method status="PASS" signature="configBM()[pri:0, instance:com.contact.test1.Contact_TC_22Test@7494e528]" name="configBM" is-config="true" duration-ms="68797" started-at="2020-02-13T08:54:56 IST" finished-at="2020-02-13T08:56:05 IST">
           <reporter-output>
             <line>
               <![CDATA[=======login=======]]>
@@ -45,31 +117,100 @@
             </line>
           </reporter-output>
         </test-method> <!-- configBM -->
-        <test-method status="PASS" signature="createcontactwithAdministratorTest()[pri:0, instance:com.contact.test1.Contact_TC_21Test@7494e528]" name="createcontactwithAdministratorTest" duration-ms="154886" started-at="2020-01-10T07:44:17 IST" finished-at="2020-01-10T07:46:52 IST">
+        <test-method status="PASS" signature="OpenContactAndDeleteThatContact()[pri:0, instance:com.contact.test1.Contact_TC_22Test@7494e528]" name="OpenContactAndDeleteThatContact" duration-ms="216052" started-at="2020-02-13T08:56:05 IST" finished-at="2020-02-13T08:59:41 IST">
           <reporter-output>
             <line>
-              <![CDATA[Creating New Contact is avilable]]>
+              <![CDATA[Contact Page displayed]]>
             </line>
             <line>
-              <![CDATA[contact created]]>
+              <![CDATA[Contact Information Page displayed]]>
             </line>
             <line>
-              <![CDATA[  Administrator  is avilable]]>
+              <![CDATA[Alert Window should pop-up with below details: Are you sure you want to delete this record?]]>
+            </line>
+            <line>
+              <![CDATA[8.Contact information Page Should be displayed]]>
+            </line>
+            <line>
+              <![CDATA[Contact Information Page displayed]]>
+            </line>
+            <line>
+              <![CDATA[Alert Window should pop-up with below details: Are you sure you want to delete this record?]]>
+            </line>
+            <line>
+              <![CDATA[8.Contact information Page Should be displayed]]>
+            </line>
+            <line>
+              <![CDATA[Contact Information Page displayed]]>
+            </line>
+            <line>
+              <![CDATA[Alert Window should pop-up with below details: Are you sure you want to delete this record?]]>
+            </line>
+            <line>
+              <![CDATA[8.Contact information Page Should be displayed]]>
+            </line>
+            <line>
+              <![CDATA[Contact Information Page displayed]]>
+            </line>
+            <line>
+              <![CDATA[Alert Window should pop-up with below details: Are you sure you want to delete this record?]]>
+            </line>
+            <line>
+              <![CDATA[8.Contact information Page Should be displayed]]>
+            </line>
+            <line>
+              <![CDATA[Contact Information Page displayed]]>
+            </line>
+            <line>
+              <![CDATA[Alert Window should pop-up with below details: Are you sure you want to delete this record?]]>
+            </line>
+            <line>
+              <![CDATA[8.Contact information Page Should be displayed]]>
+            </line>
+            <line>
+              <![CDATA[Contact Information Page displayed]]>
+            </line>
+            <line>
+              <![CDATA[Alert Window should pop-up with below details: Are you sure you want to delete this record?]]>
+            </line>
+            <line>
+              <![CDATA[8.Contact information Page Should be displayed]]>
+            </line>
+            <line>
+              <![CDATA[Contact Information Page displayed]]>
+            </line>
+            <line>
+              <![CDATA[Alert Window should pop-up with below details: Are you sure you want to delete this record?]]>
+            </line>
+            <line>
+              <![CDATA[8.Contact information Page Should be displayed]]>
+            </line>
+            <line>
+              <![CDATA[Contact Information Page displayed]]>
+            </line>
+            <line>
+              <![CDATA[Alert Window should pop-up with below details: Are you sure you want to delete this record?]]>
+            </line>
+            <line>
+              <![CDATA[8.Contact information Page Should be displayed]]>
+            </line>
+            <line>
+              <![CDATA[Contacts should not be present]]>
             </line>
           </reporter-output>
-        </test-method> <!-- createcontactwithAdministratorTest -->
-        <test-method status="PASS" signature="configAM()[pri:0, instance:com.contact.test1.Contact_TC_21Test@7494e528]" name="configAM" is-config="true" duration-ms="8" started-at="2020-01-10T07:46:52 IST" finished-at="2020-01-10T07:46:52 IST">
+        </test-method> <!-- OpenContactAndDeleteThatContact -->
+        <test-method status="PASS" signature="configAM()[pri:0, instance:com.contact.test1.Contact_TC_22Test@7494e528]" name="configAM" is-config="true" duration-ms="1" started-at="2020-02-13T08:59:41 IST" finished-at="2020-02-13T08:59:41 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAM -->
-        <test-method status="PASS" signature="configAc()[pri:0, instance:com.contact.test1.Contact_TC_21Test@7494e528]" name="configAc" is-config="true" duration-ms="3223" started-at="2020-01-10T07:46:52 IST" finished-at="2020-01-10T07:46:56 IST">
+        <test-method status="PASS" signature="configAc()[pri:0, instance:com.contact.test1.Contact_TC_22Test@7494e528]" name="configAc" is-config="true" duration-ms="1373" started-at="2020-02-13T08:59:41 IST" finished-at="2020-02-13T08:59:42 IST">
           <reporter-output>
             <line>
               <![CDATA[logout successfully]]>
             </line>
           </reporter-output>
         </test-method> <!-- configAc -->
-      </class> <!-- com.contact.test1.Contact_TC_21Test -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- com.contact.test1.Contact_TC_22Test -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
