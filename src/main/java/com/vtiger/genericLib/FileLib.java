@@ -1,6 +1,7 @@
 package com.vtiger.genericLib;
 
 import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Properties;
 
@@ -50,5 +51,17 @@ public class FileLib {
 		return data;
 		
 	}
+	
+	
+	public int getRowCount(String sheet1) throws Throwable, IOException
+	{
+		FileInputStream fisRc=new FileInputStream("./src/test/resources/TestData.xlsx"); 
+		Workbook wb=WorkbookFactory.create(fisRc);
+		
+		Sheet sh = wb.getSheet("sheet2");
+		int lastRowNum = sh.getLastRowNum();	
+		return lastRowNum;
+	}
+	
 
 }
