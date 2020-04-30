@@ -1,6 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="5" passed="5">
   <reporter-output>
+    <line>
+      <![CDATA[=========lounch the browser=======]]>
+    </line>
+    <line>
+      <![CDATA[=======login=======]]>
+    </line>
+    <line>
+      <![CDATA[login successfully]]>
+    </line>
+    <line>
+      <![CDATA[Creating New Contact is avilable]]>
+    </line>
+    <line>
+      <![CDATA[contact created]]>
+    </line>
+    <line>
+      <![CDATA[  Administrator  is avilable]]>
+    </line>
+    <line>
+      <![CDATA[logout successfully]]>
+    </line>
     <line>
       <![CDATA[=========lounch the browser=======]]>
     </line>
@@ -32,82 +53,102 @@
       <![CDATA[8.Contact information Page Should be displayed]]>
     </line>
     <line>
-      <![CDATA[Contact Information Page displayed]]>
-    </line>
-    <line>
-      <![CDATA[Alert Window should pop-up with below details: Are you sure you want to delete this record?]]>
-    </line>
-    <line>
-      <![CDATA[8.Contact information Page Should be displayed]]>
-    </line>
-    <line>
-      <![CDATA[Contact Information Page displayed]]>
-    </line>
-    <line>
-      <![CDATA[Alert Window should pop-up with below details: Are you sure you want to delete this record?]]>
-    </line>
-    <line>
-      <![CDATA[8.Contact information Page Should be displayed]]>
-    </line>
-    <line>
-      <![CDATA[Contact Information Page displayed]]>
-    </line>
-    <line>
-      <![CDATA[Alert Window should pop-up with below details: Are you sure you want to delete this record?]]>
-    </line>
-    <line>
-      <![CDATA[8.Contact information Page Should be displayed]]>
-    </line>
-    <line>
-      <![CDATA[Contact Information Page displayed]]>
-    </line>
-    <line>
-      <![CDATA[Alert Window should pop-up with below details: Are you sure you want to delete this record?]]>
-    </line>
-    <line>
-      <![CDATA[8.Contact information Page Should be displayed]]>
-    </line>
-    <line>
-      <![CDATA[Contact Information Page displayed]]>
-    </line>
-    <line>
-      <![CDATA[Alert Window should pop-up with below details: Are you sure you want to delete this record?]]>
-    </line>
-    <line>
-      <![CDATA[8.Contact information Page Should be displayed]]>
-    </line>
-    <line>
-      <![CDATA[Contact Information Page displayed]]>
-    </line>
-    <line>
-      <![CDATA[Alert Window should pop-up with below details: Are you sure you want to delete this record?]]>
-    </line>
-    <line>
-      <![CDATA[8.Contact information Page Should be displayed]]>
-    </line>
-    <line>
       <![CDATA[Contacts should not be present]]>
     </line>
     <line>
       <![CDATA[logout successfully]]>
     </line>
+    <line>
+      <![CDATA[=========lounch the browser=======]]>
+    </line>
+    <line>
+      <![CDATA[=======login=======]]>
+    </line>
+    <line>
+      <![CDATA[login successfully]]>
+    </line>
+    <line>
+      <![CDATA[Contact Page displayed]]>
+    </line>
+    <line>
+      <![CDATA[Contact Information Page displayed]]>
+    </line>
+    <line>
+      <![CDATA[Alert Window should pop-up with below details: Are you sure you want to delete this record?]]>
+    </line>
+    <line>
+      <![CDATA[Contact information Page Should be displayed]]>
+    </line>
+    <line>
+      <![CDATA[logout successfully]]>
+    </line>
+    <line>
+      <![CDATA[=========lounch the browser=======]]>
+    </line>
+    <line>
+      <![CDATA[=======login=======]]>
+    </line>
+    <line>
+      <![CDATA[login successfully]]>
+    </line>
+    <line>
+      <![CDATA[Contact Page Should be displayed]]>
+    </line>
+    <line>
+      <![CDATA[Contact information Page should be displayed]]>
+    </line>
+    <line>
+      <![CDATA[Contact should be created Successfully]]>
+    </line>
+    <line>
+      <![CDATA[7.Alert Window should pop-up with below details: Are you sure you want to delete the selected 3 records?]]>
+    </line>
+    <line>
+      <![CDATA[8.Contact information Page Should be displayed]]>
+    </line>
+    <line>
+      <![CDATA[logout successfully]]>
+    </line>
+    <line>
+      <![CDATA[=========lounch the browser=======]]>
+    </line>
+    <line>
+      <![CDATA[=======login=======]]>
+    </line>
+    <line>
+      <![CDATA[login successfully]]>
+    </line>
+    <line>
+      <![CDATA[Contact Page Should be displayed]]>
+    </line>
+    <line>
+      <![CDATA[Contact information Page should be displayed]]>
+    </line>
+    <line>
+      <![CDATA[logout successfully]]>
+    </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="303308" started-at="2020-02-13T08:54:39 IST" finished-at="2020-02-13T08:59:42 IST">
+  <suite name="Suite" duration-ms="387130" started-at="2020-04-30T17:25:06Z" finished-at="2020-04-30T17:31:33Z">
     <groups>
+      <group name="regression">
+        <method signature="Contact_TC_23Test.OpenContactAndDeleteThatContactAndCancelTest()[pri:0, instance:com.contact.test1.Contact_TC_23Test@3c87521]" name="OpenContactAndDeleteThatContactAndCancelTest" class="com.contact.test1.Contact_TC_23Test"/>
+      </group> <!-- regression -->
       <group name="smoke">
-        <method signature="Contact_TC_22Test.OpenContactAndDeleteThatContact()[pri:0, instance:com.contact.test1.Contact_TC_22Test@7494e528]" name="OpenContactAndDeleteThatContact" class="com.contact.test1.Contact_TC_22Test"/>
+        <method signature="Contact_TC_22Test.OpenContactAndDeleteThatContact()[pri:0, instance:com.contact.test1.Contact_TC_22Test@14a2f921]" name="OpenContactAndDeleteThatContact" class="com.contact.test1.Contact_TC_22Test"/>
+        <method signature="Contact_TC_24Test.SelectContactAndDeleteOneContactWithHeaderDelete()[pri:0, instance:com.contact.test1.Contact_TC_24Test@2aece37d]" name="SelectContactAndDeleteOneContactWithHeaderDelete" class="com.contact.test1.Contact_TC_24Test"/>
+        <method signature="Contact_Tc_21Test.createcontactwithAdministratorTest()[pri:0, instance:com.contact.test1.Contact_Tc_21Test@212bf671]" name="createcontactwithAdministratorTest" class="com.contact.test1.Contact_Tc_21Test"/>
       </group> <!-- smoke -->
     </groups>
-    <test name="Test" duration-ms="303308" started-at="2020-02-13T08:54:39 IST" finished-at="2020-02-13T08:59:42 IST">
+    <test name="Test" duration-ms="387130" started-at="2020-04-30T17:25:06Z" finished-at="2020-04-30T17:31:33Z">
       <class name="com.contact.test1.Contact_TC_22Test">
-        <test-method status="PASS" signature="configBC()[pri:0, instance:com.contact.test1.Contact_TC_22Test@7494e528]" name="configBC" is-config="true" duration-ms="16909" started-at="2020-02-13T08:54:39 IST" finished-at="2020-02-13T08:54:56 IST">
+        <test-method status="PASS" signature="configBC()[pri:0, instance:com.contact.test1.Contact_TC_22Test@14a2f921]" name="configBC" is-config="true" duration-ms="7983" started-at="2020-04-30T22:56:16Z" finished-at="2020-04-30T22:56:24Z">
           <reporter-output>
             <line>
               <![CDATA[=========lounch the browser=======]]>
             </line>
           </reporter-output>
         </test-method> <!-- configBC -->
-        <test-method status="PASS" signature="configBM()[pri:0, instance:com.contact.test1.Contact_TC_22Test@7494e528]" name="configBM" is-config="true" duration-ms="68797" started-at="2020-02-13T08:54:56 IST" finished-at="2020-02-13T08:56:05 IST">
+        <test-method status="PASS" signature="configBM()[pri:0, instance:com.contact.test1.Contact_TC_22Test@14a2f921]" name="configBM" is-config="true" duration-ms="13899" started-at="2020-04-30T22:56:24Z" finished-at="2020-04-30T22:56:38Z">
           <reporter-output>
             <line>
               <![CDATA[=======login=======]]>
@@ -117,64 +158,10 @@
             </line>
           </reporter-output>
         </test-method> <!-- configBM -->
-        <test-method status="PASS" signature="OpenContactAndDeleteThatContact()[pri:0, instance:com.contact.test1.Contact_TC_22Test@7494e528]" name="OpenContactAndDeleteThatContact" duration-ms="216052" started-at="2020-02-13T08:56:05 IST" finished-at="2020-02-13T08:59:41 IST">
+        <test-method status="PASS" signature="OpenContactAndDeleteThatContact()[pri:0, instance:com.contact.test1.Contact_TC_22Test@14a2f921]" name="OpenContactAndDeleteThatContact" duration-ms="76381" started-at="2020-04-30T22:56:38Z" finished-at="2020-04-30T22:57:55Z">
           <reporter-output>
             <line>
               <![CDATA[Contact Page displayed]]>
-            </line>
-            <line>
-              <![CDATA[Contact Information Page displayed]]>
-            </line>
-            <line>
-              <![CDATA[Alert Window should pop-up with below details: Are you sure you want to delete this record?]]>
-            </line>
-            <line>
-              <![CDATA[8.Contact information Page Should be displayed]]>
-            </line>
-            <line>
-              <![CDATA[Contact Information Page displayed]]>
-            </line>
-            <line>
-              <![CDATA[Alert Window should pop-up with below details: Are you sure you want to delete this record?]]>
-            </line>
-            <line>
-              <![CDATA[8.Contact information Page Should be displayed]]>
-            </line>
-            <line>
-              <![CDATA[Contact Information Page displayed]]>
-            </line>
-            <line>
-              <![CDATA[Alert Window should pop-up with below details: Are you sure you want to delete this record?]]>
-            </line>
-            <line>
-              <![CDATA[8.Contact information Page Should be displayed]]>
-            </line>
-            <line>
-              <![CDATA[Contact Information Page displayed]]>
-            </line>
-            <line>
-              <![CDATA[Alert Window should pop-up with below details: Are you sure you want to delete this record?]]>
-            </line>
-            <line>
-              <![CDATA[8.Contact information Page Should be displayed]]>
-            </line>
-            <line>
-              <![CDATA[Contact Information Page displayed]]>
-            </line>
-            <line>
-              <![CDATA[Alert Window should pop-up with below details: Are you sure you want to delete this record?]]>
-            </line>
-            <line>
-              <![CDATA[8.Contact information Page Should be displayed]]>
-            </line>
-            <line>
-              <![CDATA[Contact Information Page displayed]]>
-            </line>
-            <line>
-              <![CDATA[Alert Window should pop-up with below details: Are you sure you want to delete this record?]]>
-            </line>
-            <line>
-              <![CDATA[8.Contact information Page Should be displayed]]>
             </line>
             <line>
               <![CDATA[Contact Information Page displayed]]>
@@ -199,11 +186,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- OpenContactAndDeleteThatContact -->
-        <test-method status="PASS" signature="configAM()[pri:0, instance:com.contact.test1.Contact_TC_22Test@7494e528]" name="configAM" is-config="true" duration-ms="1" started-at="2020-02-13T08:59:41 IST" finished-at="2020-02-13T08:59:41 IST">
+        <test-method status="PASS" signature="configAM()[pri:0, instance:com.contact.test1.Contact_TC_22Test@14a2f921]" name="configAM" is-config="true" duration-ms="1" started-at="2020-04-30T22:57:55Z" finished-at="2020-04-30T22:57:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAM -->
-        <test-method status="PASS" signature="configAc()[pri:0, instance:com.contact.test1.Contact_TC_22Test@7494e528]" name="configAc" is-config="true" duration-ms="1373" started-at="2020-02-13T08:59:41 IST" finished-at="2020-02-13T08:59:42 IST">
+        <test-method status="PASS" signature="configAc()[pri:0, instance:com.contact.test1.Contact_TC_22Test@14a2f921]" name="configAc" is-config="true" duration-ms="4336" started-at="2020-04-30T22:57:55Z" finished-at="2020-04-30T22:57:59Z">
           <reporter-output>
             <line>
               <![CDATA[logout successfully]]>
@@ -211,6 +198,184 @@
           </reporter-output>
         </test-method> <!-- configAc -->
       </class> <!-- com.contact.test1.Contact_TC_22Test -->
+      <class name="com.contact.test1.Contact_Tc_21Test">
+        <test-method status="PASS" signature="configBC()[pri:0, instance:com.contact.test1.Contact_Tc_21Test@212bf671]" name="configBC" is-config="true" duration-ms="9319" started-at="2020-04-30T22:55:06Z" finished-at="2020-04-30T22:55:15Z">
+          <reporter-output>
+            <line>
+              <![CDATA[=========lounch the browser=======]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method status="PASS" signature="configBM()[pri:0, instance:com.contact.test1.Contact_Tc_21Test@212bf671]" name="configBM" is-config="true" duration-ms="18417" started-at="2020-04-30T22:55:15Z" finished-at="2020-04-30T22:55:34Z">
+          <reporter-output>
+            <line>
+              <![CDATA[=======login=======]]>
+            </line>
+            <line>
+              <![CDATA[login successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method status="PASS" signature="createcontactwithAdministratorTest()[pri:0, instance:com.contact.test1.Contact_Tc_21Test@212bf671]" name="createcontactwithAdministratorTest" duration-ms="41430" started-at="2020-04-30T22:55:34Z" finished-at="2020-04-30T22:56:15Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Creating New Contact is avilable]]>
+            </line>
+            <line>
+              <![CDATA[contact created]]>
+            </line>
+            <line>
+              <![CDATA[  Administrator  is avilable]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createcontactwithAdministratorTest -->
+        <test-method status="PASS" signature="configAM()[pri:0, instance:com.contact.test1.Contact_Tc_21Test@212bf671]" name="configAM" is-config="true" duration-ms="1" started-at="2020-04-30T22:56:15Z" finished-at="2020-04-30T22:56:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method status="PASS" signature="configAc()[pri:0, instance:com.contact.test1.Contact_Tc_21Test@212bf671]" name="configAc" is-config="true" duration-ms="976" started-at="2020-04-30T22:56:15Z" finished-at="2020-04-30T22:56:16Z">
+          <reporter-output>
+            <line>
+              <![CDATA[logout successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configAc -->
+      </class> <!-- com.contact.test1.Contact_Tc_21Test -->
+      <class name="com.contact.test1.Contact_TC_23Test">
+        <test-method status="PASS" signature="configBC()[pri:0, instance:com.contact.test1.Contact_TC_23Test@3c87521]" name="configBC" is-config="true" duration-ms="6939" started-at="2020-04-30T22:57:59Z" finished-at="2020-04-30T22:58:06Z">
+          <reporter-output>
+            <line>
+              <![CDATA[=========lounch the browser=======]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method status="PASS" signature="configBM()[pri:0, instance:com.contact.test1.Contact_TC_23Test@3c87521]" name="configBM" is-config="true" duration-ms="20722" started-at="2020-04-30T22:58:06Z" finished-at="2020-04-30T22:58:27Z">
+          <reporter-output>
+            <line>
+              <![CDATA[=======login=======]]>
+            </line>
+            <line>
+              <![CDATA[login successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method status="PASS" signature="OpenContactAndDeleteThatContactAndCancelTest()[pri:0, instance:com.contact.test1.Contact_TC_23Test@3c87521]" name="OpenContactAndDeleteThatContactAndCancelTest" duration-ms="46885" started-at="2020-04-30T22:58:27Z" finished-at="2020-04-30T22:59:13Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Contact Page displayed]]>
+            </line>
+            <line>
+              <![CDATA[Contact Information Page displayed]]>
+            </line>
+            <line>
+              <![CDATA[Alert Window should pop-up with below details: Are you sure you want to delete this record?]]>
+            </line>
+            <line>
+              <![CDATA[Contact information Page Should be displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- OpenContactAndDeleteThatContactAndCancelTest -->
+        <test-method status="PASS" signature="configAM()[pri:0, instance:com.contact.test1.Contact_TC_23Test@3c87521]" name="configAM" is-config="true" duration-ms="1" started-at="2020-04-30T22:59:13Z" finished-at="2020-04-30T22:59:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method status="PASS" signature="configAc()[pri:0, instance:com.contact.test1.Contact_TC_23Test@3c87521]" name="configAc" is-config="true" duration-ms="853" started-at="2020-04-30T22:59:13Z" finished-at="2020-04-30T22:59:14Z">
+          <reporter-output>
+            <line>
+              <![CDATA[logout successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configAc -->
+      </class> <!-- com.contact.test1.Contact_TC_23Test -->
+      <class name="com.contact.test1.Contact_TC_24Test">
+        <test-method status="PASS" signature="configBC()[pri:0, instance:com.contact.test1.Contact_TC_24Test@2aece37d]" name="configBC" is-config="true" duration-ms="7936" started-at="2020-04-30T22:59:14Z" finished-at="2020-04-30T22:59:22Z">
+          <reporter-output>
+            <line>
+              <![CDATA[=========lounch the browser=======]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method status="PASS" signature="configBM()[pri:0, instance:com.contact.test1.Contact_TC_24Test@2aece37d]" name="configBM" is-config="true" duration-ms="17503" started-at="2020-04-30T22:59:22Z" finished-at="2020-04-30T22:59:40Z">
+          <reporter-output>
+            <line>
+              <![CDATA[=======login=======]]>
+            </line>
+            <line>
+              <![CDATA[login successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method status="PASS" signature="SelectContactAndDeleteOneContactWithHeaderDelete()[pri:0, instance:com.contact.test1.Contact_TC_24Test@2aece37d]" name="SelectContactAndDeleteOneContactWithHeaderDelete" duration-ms="47366" started-at="2020-04-30T22:59:40Z" finished-at="2020-04-30T23:00:27Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Contact Page Should be displayed]]>
+            </line>
+            <line>
+              <![CDATA[Contact information Page should be displayed]]>
+            </line>
+            <line>
+              <![CDATA[Contact should be created Successfully]]>
+            </line>
+            <line>
+              <![CDATA[7.Alert Window should pop-up with below details: Are you sure you want to delete the selected 3 records?]]>
+            </line>
+            <line>
+              <![CDATA[8.Contact information Page Should be displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SelectContactAndDeleteOneContactWithHeaderDelete -->
+        <test-method status="PASS" signature="configAM()[pri:0, instance:com.contact.test1.Contact_TC_24Test@2aece37d]" name="configAM" is-config="true" duration-ms="7" started-at="2020-04-30T23:00:27Z" finished-at="2020-04-30T23:00:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method status="PASS" signature="configAc()[pri:0, instance:com.contact.test1.Contact_TC_24Test@2aece37d]" name="configAc" is-config="true" duration-ms="4241" started-at="2020-04-30T23:00:27Z" finished-at="2020-04-30T23:00:31Z">
+          <reporter-output>
+            <line>
+              <![CDATA[logout successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configAc -->
+      </class> <!-- com.contact.test1.Contact_TC_24Test -->
+      <class name="com.contact.test1.Contact_TC_25Test">
+        <test-method status="PASS" signature="configBC()[pri:0, instance:com.contact.test1.Contact_TC_25Test@548a102f]" name="configBC" is-config="true" duration-ms="7605" started-at="2020-04-30T23:00:31Z" finished-at="2020-04-30T23:00:39Z">
+          <reporter-output>
+            <line>
+              <![CDATA[=========lounch the browser=======]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method status="PASS" signature="configBM()[pri:0, instance:com.contact.test1.Contact_TC_25Test@548a102f]" name="configBM" is-config="true" duration-ms="14927" started-at="2020-04-30T23:00:39Z" finished-at="2020-04-30T23:00:54Z">
+          <reporter-output>
+            <line>
+              <![CDATA[=======login=======]]>
+            </line>
+            <line>
+              <![CDATA[login successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method status="PASS" signature="SelectContactAndDeleteOneContactWithHeaderDeleteAndCancel()[pri:0, instance:com.contact.test1.Contact_TC_25Test@548a102f]" name="SelectContactAndDeleteOneContactWithHeaderDeleteAndCancel" duration-ms="35072" started-at="2020-04-30T23:00:54Z" finished-at="2020-04-30T23:01:29Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Contact Page Should be displayed]]>
+            </line>
+            <line>
+              <![CDATA[Contact information Page should be displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SelectContactAndDeleteOneContactWithHeaderDeleteAndCancel -->
+        <test-method status="PASS" signature="configAM()[pri:0, instance:com.contact.test1.Contact_TC_25Test@548a102f]" name="configAM" is-config="true" duration-ms="1" started-at="2020-04-30T23:01:29Z" finished-at="2020-04-30T23:01:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method status="PASS" signature="configAc()[pri:0, instance:com.contact.test1.Contact_TC_25Test@548a102f]" name="configAc" is-config="true" duration-ms="4244" started-at="2020-04-30T23:01:29Z" finished-at="2020-04-30T23:01:33Z">
+          <reporter-output>
+            <line>
+              <![CDATA[logout successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configAc -->
+      </class> <!-- com.contact.test1.Contact_TC_25Test -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

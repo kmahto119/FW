@@ -4,7 +4,11 @@
   <test thread-count="5" name="Test">
     <classes>
       
+      <class name="com.contact.test1.Contact_Tc_21Test"/>
        <class name="com.contact.test1.Contact_TC_22Test"/>
+       <class name="com.contact.test1.Contact_TC_23Test"/>
+       <class name="com.contact.test1.Contact_TC_24Test"/>
+       <class name="com.contact.test1.Contact_TC_25Test"/>
        
     </classes>
   </test> <!-- Test -->
