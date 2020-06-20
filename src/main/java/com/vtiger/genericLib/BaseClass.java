@@ -38,6 +38,7 @@ public class BaseClass {
 		if(BROWSERNAME.equals("firefox")){
 			driver=new FirefoxDriver();
 		}else if(BROWSERNAME.equals("chrome")){
+			//System.setProperty("webdriver.chrome.driver", "/path/to/chromedriver");
 			driver=new ChromeDriver();
 		}else if(BROWSERNAME.equals("ie")){
 			driver=new InternetExplorerDriver();
