@@ -1,0 +1,10 @@
+package com.practiceProgramme;
+
+public class RemoveDuplicate {
+	/*In a String, remove duplicate words and duplicate characters.*/
+	public static void main(String[] args)
+	{
+		
+	}
+
+}

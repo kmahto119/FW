@@ -1,0 +1,29 @@
+package com.practiceProgramme;
+
+public class RemoveDuplicate {
+	/*In a String, remove duplicate words and duplicate characters.*/
+	public static void main(String[] args)
+	{
+		String str="bangalore";
+		removeDuplicate(str);
+	}
+	public static void removeDuplicate(String s)
+	{
+		 String str =""; 
+	        for (int i = 0; i < s.length(); i++)  
+	        { 
+	            // character at i'th index of s 
+	            char c = s.charAt(i); 
+	              
+	            // if c is present in str, it returns 
+	            // the index of c, else it returns -1 
+	            if (str.indexOf(c) < 0) 
+	            { 
+	                // adding c to str if -1 is returned 
+	                str += c; 
+	            } 
+	        }
+		System.out.println(str);
+	}
+
+}

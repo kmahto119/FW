@@ -3,15 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.contact.test1.Contact_TC_21Test">
+      <class name="com.contact.test1.SameClassDataProvider">
         <methods>
-          <include name="configBM"/>
-          <include name="configAM"/>
-          <include name="createcontactwithAdministratorTest"/>
-          <include name="configBC"/>
-          <include name="configAc"/>
+          <include name="addToCart"/>
         </methods>
-      </class> <!-- com.contact.test1.Contact_TC_21Test -->
+      </class> <!-- com.contact.test1.SameClassDataProvider -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

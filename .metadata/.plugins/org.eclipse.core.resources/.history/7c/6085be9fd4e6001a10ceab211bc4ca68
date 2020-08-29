@@ -1,0 +1,8 @@
+package com.selenium.practice;
+
+public class ActionsClassTest {
+	public static void main(String[] args) {
+		
+	}
+
+}

@@ -1,0 +1,9 @@
+package com.selenium.practice;
+
+public class ActionsClassTest {
+	public static void main(String[] args) {
+		
+		System.setProperty("webdriver.chrome.driver", "./src/main/resources/geckodriver.exe");
+	}
+
+}

@@ -1,0 +1,18 @@
+package com.selenium.practice;
+
+import java.util.Arrays;
+
+public class DefaultBrow {
+	public static void main(String[] args) 
+	   {
+		String[] str= {"abc","mdef","efg"};
+		
+		Arrays.sort(str);
+		System.out.println(str.toString());
+		String string = Arrays.toString(str);
+		System.out.println(string);
+		
+	   }
+
+
+}

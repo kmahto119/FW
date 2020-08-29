@@ -1,0 +1,10 @@
+package com.javascriptDemo;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class SendData {
+	WebDriver driver=new ChromeDriver();
+	//System.setProperty(webdriver.chrome.driver,"C://Users//kailash//AppData//Local//Google//Chrome//Application//chrome.exe");
+	System.setProperty("webdriver.chrome.driver","C://Users//kailash//AppData//Local//Google//Chrome//Application//chrome.exe");
+}

@@ -1,0 +1,15 @@
+package com.javascript;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class FirstJavascriptPractice {
+	
+	public static void main(String[] args) {
+		WebDriver driver = new ChromeDriver();
+		System.setProperty("webdriver.driver.chromedriver", "./src/main/resources/chromedriver.exe");
+		driver.get("www.google.com");
+	}
+	
+
+}

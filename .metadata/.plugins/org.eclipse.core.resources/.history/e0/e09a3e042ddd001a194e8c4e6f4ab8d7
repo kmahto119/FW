@@ -1,0 +1,28 @@
+package com.javascript;
+
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class FirstJavascriptPractice {
+	static WebDriver driver=null;
+	public static void main(String[] args) {
+		System.setProperty("webdriver.chrome.driver", "./src/main/resources/chromedriver.exe");
+		driver = new ChromeDriver();
+		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		driver.get("http://demo.guru99.com/V4/index.php");
+		
+		    		
+ 		
+	        //Login to Guru99 		
+	        driver.findElement(By.name("uid")).sendKeys("mngr34926");					
+	        driver.findElement(By.name("password")).sendKeys("amUpenu");	
+	        
+	        WebElement button =driver.findElement(By.name("btnLogin"));	
+	}
+	
+
+}

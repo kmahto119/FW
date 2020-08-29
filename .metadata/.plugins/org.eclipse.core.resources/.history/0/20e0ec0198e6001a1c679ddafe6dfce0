@@ -1,0 +1,11 @@
+package com.selenium.practice;
+
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Demotest {
+	public static void main(String[] args) {
+		ChromeDriver driver = new ChromeDriver();
+		driver.get("https://www.flipkart.com/?gclid=EAIaIQobChMIqtTIyISz6wIVFx4rCh0VrwLwEAAYASAAEgKr4_D_BwE&ef_id=EAIaIQobChMIqtTIyISz6wIVFx4rCh0VrwLwEAAYASAAEgKr4_D_BwE:G:s&s_kwcid=AL!739!3!326505318642!e!!g!!flipkart&semcmpid=sem_8024046704_brand_eta_goog");
+	}
+
+}
