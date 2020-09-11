@@ -1,5 +1,5 @@
-GitRepositoriesView.GitDirectories=C\:\\Users\\kailash\\git\\APITEstingRestAssuredN\\.git;C\:\\Users\\kailash\\.git;C\:\\Users\\kailash\\git\\.git;C\:\\Users\\kailash\\git\\cucumb\\.git;
-GitRepositoriesView.GitDirectories.relative=C\:\\Users\\kailash\\git\\APITEstingRestAssuredN\\.git;C\:\\Users\\kailash\\.git;C\:\\Users\\kailash\\git\\.git;C\:\\Users\\kailash\\git\\cucumb\\.git;
+GitRepositoriesView.GitDirectories=C\:\\Users\\kailash\\git\\APITEstingRestAssuredN\\.git;C\:\\Users\\kailash\\.git;C\:\\Users\\kailash\\git\\.git;C\:\\Users\\kailash\\git\\FW\\ConflictDemo\\.git;C\:\\Users\\kailash\\git\\cucumb\\.git;
+GitRepositoriesView.GitDirectories.relative=C\:\\Users\\kailash\\git\\APITEstingRestAssuredN\\.git;C\:\\Users\\kailash\\.git;C\:\\Users\\kailash\\git\\.git;ConflictDemo\\.git;C\:\\Users\\kailash\\git\\cucumb\\.git;
 RepositorySearchDialogDeepSearch=true
 RepositorySearchDialogSearchPath=C\:\\Users\\kailash\\git
 eclipse.preferences.version=1
