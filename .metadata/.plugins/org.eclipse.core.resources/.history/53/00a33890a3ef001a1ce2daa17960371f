@@ -1,0 +1,14 @@
+package com.add;
+
+public class Parent1 {
+	public String str="";
+	String str="kamlesh";
+	
+
+}
+class parent2
+{
+	public static void main(String[] args) {
+		Parent1 p1 = new Parent1();
+	}
+}

@@ -1,0 +1,46 @@
+package com.interview;
+
+import java.util.ArrayList;
+import java.util.TreeSet;
+
+public class removeDuplicate {
+	public static void main(String[] args) {
+		String str="4581242 14 -4 458";
+		removeDuplicate(str);
+		sortElement(str);
+		
+	}
+
+	
+
+	private static void removeDuplicate(String str) 
+	{
+		ArrayList al=new ArrayList();
+		//TreeSet set1=new TreeSet();
+		String[] replaceAll = str.replaceAll(" ", ",").split(",");
+		for(int i=0;i< replaceAll.length;i++)
+		{
+			if(replaceAll[i].length() >=10)
+			{
+				String[] split = replaceAll[i].replaceAll("", ",").split(",");
+				for(int k=0;k<split.length;k++)
+				{
+					set1.add(split[k]);
+				}
+				
+			}else{
+				//set.add(replaceAll[i]);
+			}
+			
+		}
+		//System.out.println(set);
+		System.out.println(set1);
+		
+	}
+	private static void sortElement(String str)
+	{
+	
+		
+	}
+
+}

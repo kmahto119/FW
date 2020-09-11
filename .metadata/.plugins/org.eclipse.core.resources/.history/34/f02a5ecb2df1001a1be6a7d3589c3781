@@ -1,0 +1,13 @@
+
+package com.javaInterviewPract;
+
+public class Test5
+{
+	public static void main(String[] args) 
+	{
+		String str="10";
+		int i = Integer.parseInt("10");
+		
+	}
+
+}

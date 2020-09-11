@@ -1,0 +1,19 @@
+
+package com.javaInterviewPract;
+
+public class Test5
+{
+	public static void main(String[] args) 
+	{
+		int str=10;
+		int i = Integer.parseInt("10");
+		if(i==str)
+		{
+			System.out.println("execute");
+		}else{
+			System.out.println("not execute");
+		}
+		
+	}
+
+}

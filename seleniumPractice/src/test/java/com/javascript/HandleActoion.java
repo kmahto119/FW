@@ -8,9 +8,12 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 
 public class HandleActoion {
+	
+
 
 	static WebDriver driver=null;
 	public static void main(String[] args) {
+		
 		//System.setProperty("webdriver.chrome.driver", "./src/main/resources/chromedriver.exe");
 		
 		driver=new ChromeDriver();
@@ -23,7 +26,6 @@ public class HandleActoion {
 
 		act.moveToElement(driver.findElement(By.xpath("//span[text()='Sports, Books & More']"))).perform();
 		driver.findElement(By.xpath("//a[@title='Chocolates']")).click();
-		
 		
 	}
 

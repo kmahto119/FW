@@ -1,0 +1,18 @@
+package com.add;
+
+public class Parent1 {
+	public String str="";
+	String str1="kamlesh";
+	public static String str2="mahto";
+	
+
+}
+class parent2
+{
+	public static void main(String[] args) {
+		Parent1 p1 = new Parent1();
+		p1.str="a";
+		System.out.println(p1.str);
+		parent2 p2 = new parent2();
+	}
+}

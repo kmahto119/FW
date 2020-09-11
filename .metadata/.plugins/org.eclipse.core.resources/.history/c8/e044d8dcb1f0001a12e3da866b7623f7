@@ -1,0 +1,10 @@
+package com.langPackage;
+
+public class Demo {
+	String s="kamlesh";
+	String s1=new String("kamlesh");
+	public static void main(String[] args) {
+		
+	}
+
+}

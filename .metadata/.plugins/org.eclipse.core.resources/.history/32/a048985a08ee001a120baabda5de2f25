@@ -1,0 +1,11 @@
+package com.javaInterviewPract;
+
+import java.util.LinkedList;
+
+public class LiseDemo3 {
+	public static void main(String[] args) {
+		LinkedList bag = new LinkedList();
+		
+	}
+
+}

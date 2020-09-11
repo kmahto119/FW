@@ -1,0 +1,21 @@
+package com.langPackage;
+
+public class WrapperClassDemo {
+	
+	
+	public static void main(String[] args)
+	{
+		Integer i=new Integer("10");//string to integer wrappeer class0
+		Double d=Double.valueOf("12");//string to Double wrapper class
+		Double d1=Double.valueOf(10.5);//premitive data type to Double wrapper class
+		System.out.println(i);
+		System.out.println(d);
+		System.out.println(d1);
+		
+		
+		/*===================================*/
+		/*========*/
+		
+	}
+
+}

@@ -1,0 +1,22 @@
+package com.langPackage;
+
+public class Student1 {
+	int rollNO;
+	
+	public Student1(int rollNO) {
+		this.rollNO=rollNO;
+	}
+
+	public int HashCode()
+	{
+		return rollNO;
+	}
+	
+	public static void main(String[] args) 
+	{
+		Student1 s = new Student1(10);
+		Student s2=new Student(100);
+		System.out.println(s);
+	}
+
+}

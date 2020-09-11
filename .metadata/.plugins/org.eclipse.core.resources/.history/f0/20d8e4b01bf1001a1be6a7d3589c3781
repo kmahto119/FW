@@ -1,0 +1,17 @@
+package com.javaInterviewPract;
+
+public class Test {
+	
+	static int i=10;
+	static int j;
+	public static void main(String[] args) {
+		Test t = new Test();
+		System.out.println(t.i);//10
+		System.out.println(i);//10
+		//==================//
+		Test t2 = new Test();
+		System.out.println(j);
+		System.out.println(t2.j);
+	}
+
+}

@@ -1,0 +1,35 @@
+package com.javaInterviewPract;
+
+import java.util.ArrayList;
+import java.util.Collections;
+
+
+
+public class ListDemo {
+	public static void main(String[] args)
+	{
+		ArrayList<String> bag = new ArrayList<String>();
+		bag.add("k");
+		bag.add("a");
+		bag.add("m");
+		bag.add("l");
+		bag.add("e");
+		bag.add("s");
+		bag.add("h");
+		bag.add("k");
+		
+		System.out.println("Before sorting:- "+bag);
+		Collections.sort(bag);
+		System.out.println("After sorting:-  "+bag);
+		
+		ArrayList<String> al1=new ArrayList<String>();
+		System.out.println(al1);
+		al1.addAll(bag);
+		System.out.println(al1);
+		al1.remove("k");
+		System.out.println(al1);
+		
+		
+	}
+
+}

@@ -1,0 +1,10 @@
+package com.javaInterviewPract;
+
+public class Test3 {
+	String str1="kamlesh";
+	static String str2="mahto"; 
+	public static void main(String[] args) {
+		
+	}
+
+}

@@ -1,0 +1,86 @@
+package com.interview;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.HashSet;
+import java.util.TreeSet;
+
+public class removeDuplicate {
+	public static void main(String[] args) {
+		String str="4581242 14 -4 4508";
+		removeDuplicate(str);
+	 	sortElement(str);
+		
+	}
+
+	private static void removeDuplicate(String str) 
+	{
+		ArrayList<Integer> al=new ArrayList<Integer>();
+		String[] replaceAll = str.replaceAll(" ", ",").split(",");
+		for(int i=0;i< replaceAll.length;i++)
+		{
+			int parseInt = Integer.parseInt(replaceAll[i]);
+			if(parseInt>0)
+			{
+				String[] split = replaceAll[i].split("");
+				
+				for(int k=0;k<=split.length-1;k++)
+				{
+					//int parseInt2 = ;
+					al.add(Integer.parseInt(split[k]));
+				}
+				
+			}else{
+				
+				al.add(parseInt);
+			}
+			
+		}
+		System.out.println(al);
+		
+		System.out.println("============Remove duplicate Occurannce=============");
+		
+		HashSet<Integer> hashSet = new HashSet<Integer>(al);
+		System.out.println(hashSet);
+		
+		System.out.println("========sort the element=========== ");
+		TreeSet ts = new TreeSet(al);
+		System.out.println(ts);
+		
+		
+		
+	}
+	private static void sortElement(String str)
+	{
+	
+		ArrayList<Integer> al=new ArrayList<Integer>();
+		String[] replaceAll = str.replaceAll(" ", ",").split(",");
+		for(int i=0;i< replaceAll.length;i++)
+		{
+			int parseInt = Integer.parseInt(replaceAll[i]);
+			if(parseInt>0)
+			{
+				String[] split = replaceAll[i].split("");		
+				for(int k=0;k<=split.length-1;k++)
+				{
+					al.add(Integer.parseInt(split[k]));
+				}
+			}else{		
+				al.add(parseInt);
+			}	
+		}
+		System.out.println(al);
+		Collections.sort(al);
+		System.out.println(al);
+		String s = al.toString();
+		System.out.println(s.replaceAll(", ", ""));
+		
+		Object[] array = al.toArray();
+		System.out.println(array);
+		for(int j=0;j<array.length;j++)
+		{
+			System.out.print(array[j]);
+		}
+	}
+
+}

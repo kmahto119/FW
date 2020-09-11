@@ -1,0 +1,19 @@
+package com.javaInterviewPract;
+
+import java.util.ArrayList;
+
+public class ListDemo {
+	public static void main(String[] args)
+	{
+		ArrayList al = new ArrayList();
+		al.add("k");
+		al.add("a");
+		al.add("m");
+		al.add("l");
+		al.add("e");
+		al.add("s");
+		al.add("h");
+		
+	}
+
+}
